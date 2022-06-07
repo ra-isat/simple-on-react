@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .wrapper {
+        display: flex;
+        .menu {
+            display: flex;
+            list-style-type: none;
+            padding-right: 20px;
+            border-right: 1px solid #ececec;
+            >li>a {
+                display: block;
+                font-size: 16px;
+                padding: 0 12px;
+                color: #222;
+                text-decoration: none;
+            }
+        }
+    }
+    .btns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+        >button {
+            cursor: pointer;
+            border: none;
+            padding: 6px 12px;
+        }
+        .login-btn {
+            margin-right: 10px;
+            border: 1px solid #ececec;
+        }
+        .sign-up-btn {
+            background-color: royalblue;
+            color: #fff;
+            white-space: nowrap;
+        }
+    }
+}
